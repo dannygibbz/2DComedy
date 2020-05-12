@@ -1,0 +1,124 @@
+@import "~antd/dist/antd.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.leaflet-container {
+  height: 480px;
+  width: 100%;
+}
+@font-face {
+  font-family: Poly;
+  src: url("./fonts/Poly-Regular.otf") format("opentype");
+}
+
+/*.turd {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}*/
+.copytext {
+  padding-right: 3%;
+  padding-left: 3%;
+  margin-right: 2%;
+  margin-left: 2%;
+  font: normal 400 20px/34px Poly, serif;
+  hyphens: auto;
+}
+
+.header {
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+  font: normal 400 30px/40px expressway, sans-serif;
+  font-weight: 600;
+  hyphens: auto;
+  text-align: left;
+}
+
+b {
+  font-family: "Montserrat", sans-serif;
+}
+
+i {
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .hideWhenSmall {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .hideWhenBig {
+    display: none;
+  }
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.vimeo-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+}
+.vimeo-wrapper iframe {
+  width: 100vw;
+  height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+  min-height: 100vh;
+  min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blueSuccessColor {
+  background: rgb(75, 110, 218) !important;
+  color: white;
+  border-radius: 5px !important;
+}
+
+/*@font-face {
+  font-family: Poly;
+  font-weight: italic;
+  src: url("./Poly-Italic.otf") format("opentype");
+}*/
+
+video:focus {
+  outline: none;
+}
+
+/* video::-webkit-media-controls-panel {
+  background-image: none !important;
+  filter: brightness(0.4);
+
+ } */

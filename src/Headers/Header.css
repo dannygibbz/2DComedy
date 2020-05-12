@@ -1,0 +1,20 @@
+.App-header:before {
+  content: "";
+  position: relative;
+  height: 10px;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  display: block;
+  background: url("./top-pattern-2.svg") repeat-x;
+  background-size: auto 100%;
+}
+
+.hoverRed {
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.hoverRed:hover {
+  border-bottom: 1px solid #f0353d;
+}
