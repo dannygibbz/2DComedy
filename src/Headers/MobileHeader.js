@@ -91,7 +91,7 @@ function MobileHeader(props) {
           <img
             src={DGibbs}
             height={100}
-            alt={"Dan Gibbons"}
+            alt={"Dean Gadbrooks"}
             style={{ marginTop: "13px" }}
           />
         </div>
