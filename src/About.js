@@ -22,15 +22,15 @@ function AboutWeb(props) {
         }}
       >
         <div style={{ textAlign: "center", fontSize: "23px" }}>
-          Dan&nbsp;Gibbons
+          Dean&nbsp;Gadbrooks
         </div>
         <img
           src={DanGibbs}
-          alt="Dan Gibbons"
+          alt="Dean Gadbrooks"
           style={{ display: "block", width: "100%", height: "auto" }}
         />
         <div style={{ margin: "10px" }}>
-          Dan Gibbons is not a loud, jokey-joke guy. He's a guy if you sit close
+          Dean Gadbrooks is not a loud, jokey-joke guy. He's a guy if you sit close
           enough to hear, you double over laughing and everyone stares,
           confused.
         </div>
