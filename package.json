@@ -18,7 +18,7 @@
     "mailgun-js": "^0.22.0",
     "mongodb": "^3.1.10",
     "netlify-lambda": "^1.1.1",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "react": "16.7.0-alpha.2",
     "react-device-detect": "^1.6.1",
     "react-dom": "16.7.0-alpha.2",
